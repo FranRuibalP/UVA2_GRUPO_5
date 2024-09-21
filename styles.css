@@ -87,9 +87,8 @@
     width: 100%;
     height: auto;
     max-width: 1000px;
-    
-
   }
+ 
   
   footer {
     background-color: var(--terceary-bg-color);
@@ -112,7 +111,10 @@
     padding: 0.5em;
     width: 220px;
   }
-  
+  .img-trabajando{
+    width: 60%;
+    height: 70%;
+  }
   .contenedor_nosotros{
       background-color: #FFF;
       border-radius: 25px;
@@ -152,6 +154,10 @@
       font-size: 1.2em;
       padding: 1em;
   }
+  .contenedor_nosotros ul li img{
+    width: 130px;
+    height: 130px;
+}
   .boton_fill{
       border: 2px solid var(--primary-color);
       background-color: var(--primary-color);
