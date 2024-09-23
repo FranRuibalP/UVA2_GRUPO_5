@@ -207,3 +207,8 @@
       text-align: center;
     }
   }
+  @media screen and (max-width: 970px) {
+    .footer-nosotros{
+      position:relative;
+    }
+  }
