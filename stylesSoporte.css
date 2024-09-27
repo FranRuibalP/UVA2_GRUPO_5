@@ -1,0 +1,95 @@
+/* Sección de soporte y mantenimiento */
+.bg-light {
+    background-color: var(--secondary-bg-color);
+  }
+
+  .circle-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    transition: all 0.3s ease;
+    flex-shrink: 1;
+    background-color: #c4dad2;
+    
+  }
+
+  .circle-icon-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    transition: all 0.3s ease;
+    flex-shrink: 1;
+    background-color: #c4dad2;
+    
+  }
+  .btn-icons{
+    gap: 5rem;
+  }
+
+  .icon {
+    width: 50%; /* Ajusta el tamaño del ícono a la mitad del contenedor */
+    height: 50%;
+    transition: all 0.3s ease;
+    fill:#262b27
+  }
+
+  /* Efecto hover: Cambia el color del fondo y del ícono */
+  .circle-icon:hover {
+    background-color: #6a9c89;
+    cursor: pointer;
+  }
+
+  .circle-icon:hover .icon {
+    fill: #ffffff;
+  }
+
+  /* Ajustes para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .circle-icon {
+      width: 100px;
+      height: 100px;
+    }
+
+    .icon {
+      width: 60%; /* Ajuste de tamaño proporcional */
+      height: 60%;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .circle-icon {
+      width: 75px;
+      height: 75px;
+    }
+    .btn-icons{
+      gap: 2rem;
+    }
+    .circle-icon-2 .icon {
+      width: 60%; /* Ajuste de tamaño proporcional */
+      height: 60%;
+    }
+    .icon {
+      width: 70%; /* Ajuste de tamaño proporcional */
+      height: 70%;
+    }
+  }
+  @media (max-width: 392px) {
+    .circle-icon {
+      width: 65px;
+      height: 65px;
+      gap: 0.5em;
+    }
+    .circle-icon-2 .icon {
+      width: 60%; /* Ajuste de tamaño proporcional */
+      height: 60%;
+    }
+    .icon {
+      width: 90%; /* Ajuste de tamaño proporcional */
+      height: 90%;
+    }
+
+  }
