@@ -1,0 +1,59 @@
+
+.nosotros h2{
+    margin-bottom: 1em;
+}
+.card{
+    width: 90%;
+    margin: auto;
+    padding: 2em;
+}
+.card ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card ul li{
+    padding: 1em;
+    margin: 1em;
+    border: 3px solid var(--primary-color);
+    border-radius: 15px;
+}
+.card ul li h3{
+    font-size: 18px;
+    padding-top: .5em;
+    height: 60px;
+    align-content: center;
+}
+.card button{
+    margin-bottom: 1em;
+}
+.outline{
+    background-color: transparent;
+    a{
+        color: var(--primary-color);
+    }
+}
+.outline:hover{
+    background-color: var(--primary-color);
+    a{
+        color: #FFF;
+    }
+}
+
+@media (max-width:767px) {
+    .card{
+        width: 90%;
+    }
+    .card ul li{
+        width: 80%;
+    }
+}
+@media (min-width:885px) and (max-width: 1120px){
+    .card ul li{
+        width: 40%;
+    }
+}
