@@ -56,8 +56,8 @@
     background-color: var(--secondary-color);
     box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.25);
   }
-  nav .navbar-brand{
-    margin-right: 45px;
+  nav .navbar-brand img{
+    width: 50px;
   }
   nav .nav-item{
     margin-right: 20px;

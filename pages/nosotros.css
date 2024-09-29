@@ -29,6 +29,9 @@
     height: 60px;
     align-content: center;
 }
+.card ul li img{
+    border-radius: 50%;
+}
 .card button{
     margin-bottom: 1em;
 }
