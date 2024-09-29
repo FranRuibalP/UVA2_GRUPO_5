@@ -38,16 +38,11 @@
     margin: 1em 0;
     display: block;
     margin: auto;
-    a{
-        color: #FFF;
-        text-decoration: none;
-    }
+    color: #FFF;
   }
   .button-cta:hover{
     background-color: transparent;
-    a{
-        color: var(--primary-color);
-    }
+    color: var(--primary-color);
   }
   main {
     padding: 2em 0;

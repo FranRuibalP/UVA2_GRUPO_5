@@ -37,15 +37,11 @@
 }
 .outline{
     background-color: transparent;
-    a{
-        color: var(--primary-color);
-    }
+    color: var(--primary-color);
 }
 .outline:hover{
     background-color: var(--primary-color);
-    a{
-        color: #FFF;
-    }
+    color: #FFF;
 }
 
 @media (max-width:767px) {

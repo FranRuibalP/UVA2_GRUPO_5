@@ -6,3 +6,13 @@ function scrollToSection(id) {
     element.scrollIntoView({ behavior: 'smooth' });
   }
 }
+function goToPortfolio(url) {
+ window.open(url, '_blank')
+}
+
+function goToFigma(url) {
+  window.open(url, '_blank')
+}
+function goToPage(url){
+  window.location.href = url
+}
