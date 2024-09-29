@@ -109,3 +109,50 @@ height: 50%;
     }
    
 }
+@media (max-width: 321px) {
+    .servicios{
+        width: 92%;
+    }
+    .titulo{
+        font-size: 25px;
+    }
+    .texto-central{
+        margin: 0 auto;
+        width: 90%;
+        font-size: 18px;
+       
+    }
+    .marco-principal{
+        margin: 0 auto;
+        background-color: #fff;
+        width: 100%;
+        padding: 50px 10px;
+        margin-top: 40px;
+        margin-bottom: 70px;
+    }
+    .proyectos{
+        flex-direction: column;
+        
+    }
+    .proyecto-especificacion {
+       margin: 0 auto;
+        width: 80%;
+        background-color: #fff;
+        margin-bottom: 50px;
+    }
+    .proyecto-especificacion p {
+        font-size: 17px;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .marco{
+        width: 85%;
+        padding-bottom: 60px;
+        margin-bottom: 50px;
+        font-size: 16px;
+        height: 310px;
+       text-align: center;
+    }
+   
+}
