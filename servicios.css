@@ -9,6 +9,7 @@
 .proyectos{
     display: flex;
     margin: 50px 0px;
+    flex-wrap: wrap;
     
 }
 .proyecto-especificacion{
@@ -16,7 +17,7 @@
     width: 30%;
     background-color: #fff;
     padding: 20px;
-    height: 500px;
+    height: auto;
 }
 .proyecto-especificacion img{
     margin: 0 auto;
@@ -40,7 +41,7 @@ height: 50%;
     border-radius: 20px;
     margin-bottom: 40px;
     font-size: 25px;
-    height: 300px;
+    height: auto;
 }
 .titulo{
     text-align: center;
@@ -61,7 +62,40 @@ height: 50%;
     margin-bottom: 80px;
 }
 
-
+@media (max-width: 1440px){
+    .proyecto-especificacion {
+       height: 600px;
+        background-color: #fff;
+        margin-bottom: 50px;
+    }
+    .proyecto-especificacion p {
+        font-size: 20px;
+    }
+    .marco{   
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        font-size: 18px;
+        height: 290px;
+       text-align: center;
+    }
+   
+}
+@media (max-width: 1017px){
+    .servicios{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .texto-central{
+        font-size: 18px;
+       
+    }
+    .proyecto-especificacion p {
+        font-size: 17px;
+    }
+    .marco{
+        font-size: 16px;
+    }
+}
 @media (max-width: 430px) {
     .servicios{
         width: 92%;
