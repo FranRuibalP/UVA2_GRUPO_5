@@ -1,13 +1,19 @@
 
+.inicio{
+    max-width: 1500px;
+    margin: auto;
+}
+
 .inicio img{
     width: 100%;
     height: auto;
 }
 .inicio p{
     text-align: justify;
+    margin-bottom: 1.5em;
 }
 .inicio .alineado-horizontal{
-    min-height: 70vh;
+    min-height: 60vh;
 }
 
 .row{
@@ -17,6 +23,9 @@
 @media (max-width:767px){
     .button-cta{
         width: 100%;
+    }
+    .alineado-horizontal{
+        flex-direction: column-reverse;
     }
     
 }

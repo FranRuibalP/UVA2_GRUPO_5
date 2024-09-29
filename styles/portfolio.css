@@ -1,0 +1,56 @@
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+
+    text-align: center;
+    width: 80%; /* Ancho del contenedor */
+    max-width: 800px; /* Máximo ancho */
+    background-color: #FFFFFF; /* Fondo blanco para el contenedor */
+    border-radius: 12px; /* Bordes redondeados */
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-top: 50px; /* Espacio arriba */
+}
+h1 {
+    color: #16423C; /* Color primario */
+    margin: 0; /* Sin margen */
+}
+.content {
+    padding: 20px;
+    background-color: #FFFFFF; /* Color de fondo del recuadro */
+    border-radius: 12px; /* Bordes redondeados del recuadro */
+    margin-top: 20px; /* Espacio entre el título y el recuadro */
+}
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; /* Ancho total de las cajas */
+    margin-top: 50px; /* Espacio arriba */
+}
+.box {
+    width: 45%; /* Ancho de cada caja */
+    background-color: #FFFFFF; /* Fondo blanco */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-align: center;
+    padding: 20px; /* Espacio interior */
+}
+.logos {
+    display: flex;
+    justify-content: center; /* Centrar logos */
+    align-items: center; /* Alinear verticalmente */
+    margin-top: 50px; /* Espacio arriba */
+    width: 100%; /* Ancho completo */
+}
+.logo {
+    margin: 0 20px; /* Espacio entre logos */
+    width: 199px; /* Ancho del logo */
+    height: 156px; /* Alto del logo */
+    object-fit: contain; /* Asegura que la imagen mantenga su proporción */
+}

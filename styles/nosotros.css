@@ -1,12 +1,12 @@
 
 .nosotros h2{
     margin-bottom: 1em;
-    font-weight: 600;
 }
 .card{
     width: 90%;
     margin: auto;
     padding: 2em;
+    max-width: 1200px;
 }
 .card ul{
     list-style-type: none;
